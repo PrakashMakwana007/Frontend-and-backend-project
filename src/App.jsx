@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { Header, Footer } from './componets/Index';
+import { Header, Footer } from './components/Index';
 import { Outlet } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import appwriteService from './appwrite/auth';

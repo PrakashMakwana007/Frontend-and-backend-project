@@ -45,7 +45,7 @@ function Menu() {
 
   return (
     <div className="container mx-auto px-6 py-12">
-      <h1 className="text-5xl font-extrabold text-center text-blue-950 mb-12 shadow-md drop-shadow-lg">
+      <h1 className="text-5xl font-extrabold text-center text-white mb-12 shadow-md drop-shadow-lg">
         Our Delicious Menu 🍽️
       </h1>
 

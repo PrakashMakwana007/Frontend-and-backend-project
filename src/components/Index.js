@@ -1,4 +1,4 @@
-import Loging from "../componets/Loging.jsx";
+import Loging from "../components/Loging.jsx";
 import Logobtn from "./Logoutbtn";
 import Menu from "./menu";
 import Signup from './Singup';

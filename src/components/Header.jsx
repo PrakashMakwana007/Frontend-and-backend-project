@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink, Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { Logo } from "../componets/Index";
+import { Logo } from "./Index";
 import { logout } from "../store/authSlice";
 
 function Header() {

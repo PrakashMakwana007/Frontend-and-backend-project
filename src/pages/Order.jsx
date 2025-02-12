@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from '../componets/menu'
+import Menu from '../components/menu'
 function Order() {
   return (
     <div>

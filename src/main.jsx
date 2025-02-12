@@ -12,7 +12,7 @@ import Singup from './pages/Singup.jsx';
 import Order   from './pages/Order'; 
 import Cartto from './pages/Cartto.jsx'
  
-import CheckoutPage from './componets/Checkout.jsx';
+import CheckoutPage from './components/Checkout.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
