@@ -6,7 +6,7 @@ export class AppwriteService {
 
   constructor() {
     this.client
-      .setEndpoint(conf.appwriteUrl)
+      .setEndpoint("https://cloud.appwrite.io/v1")
       .setProject(conf.projectId);
     this.account = new Account(this.client);
   }

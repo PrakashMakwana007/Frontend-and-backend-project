@@ -27,7 +27,7 @@ const CheckoutPage = () => {
         setOrderDetails(generateRandomInfo());
       }, 4000);
     } else {
-      alert("⚠️ Please fill out the address and location!");
+      alert("Please fill out the address and location!");
     }
   };
 
@@ -52,6 +52,9 @@ const CheckoutPage = () => {
             </h2>
             <p className="text-lg text-gray-700 mb-4">
               Your order has been placed successfully.
+              <p>
+                And  its come in 30 mni !!
+              </p>
             </p>
             <div className="bg-green-100 p-4 rounded-md shadow-md">
               <p className="text-lg font-semibold">Order Details:</p>
