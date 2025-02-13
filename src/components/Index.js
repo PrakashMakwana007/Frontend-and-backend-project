@@ -1,6 +1,6 @@
 import Loging from "../components/Loging.jsx";
 import Logobtn from "./Logoutbtn";
-import Menu from "./menu";
+import Menu from "./Menu";
 import Signup from './Singup';
 import Input from "./Input";
 import Button from "./Button";
