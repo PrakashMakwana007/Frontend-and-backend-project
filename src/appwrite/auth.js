@@ -11,12 +11,14 @@ export class AppwriteService {
     this.account = new Account(this.client);
   }
 
-  
   async createAccount({ email, password, name }) {
     try {
       const userId = ID.unique();
-      return await this.account.create(userId, email, password, name);
+      const response = await this.account.create(userId, email, password, name);
+      console.log("Account created successfully:", response);
+      return response;
     } catch (error) {
+      console.error("Create Account Error:", error);
       throw new Error(error?.message || "Failed to create account.");
     }
   }
@@ -24,7 +26,7 @@ export class AppwriteService {
   
   async login({ email, password }) {
     try {
-        // Ensure no active session before logging in
+        
         try {
             await this.account.deleteSession("current");
             console.log("Existing session cleared.");
