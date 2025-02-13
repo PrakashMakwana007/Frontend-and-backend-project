@@ -18,8 +18,17 @@ import panermasala from '../IMAGE/panierbuuter.jpeg';
 import kadai from '../IMAGE/kadi punir.jpeg';
 
 const menuItems = [
-  { name: "Dal Baati", description: "Traditional Rajasthani dish.", price: "₹250", img: dakbati, special: true },
-  { name: "Paneer Tikka", description: "Marinated paneer grilled to perfection.", price: "₹200", img: panirtika },
+  {   name: "Dal Baati",
+      description: "Traditional Rajasthani dish.",
+      price: "₹250",
+      img: dakbati,
+      special: true 
+  },
+  {   name: "Paneer Tikka",
+      description: "Marinated paneer grilled to perfection.",
+      price: "₹200", 
+      img: panirtika 
+  },
   { name: "Chole Bhature", description: "Spicy chickpeas served with fluffy bhature.", price: "₹180", img: chholebhature },
   { name: "Aloo Paratha", description: "Stuffed paratha with spicy potato filling.", price: "₹100", img: alooparotha },
   { name: "Vegetable Biryani", description: "Aromatic basmati rice cooked with veggies.", price: "₹220", img: vegbir },
